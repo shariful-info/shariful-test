@@ -1,0 +1,214 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #333;
+}
+header {
+    background-color: #004165;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+footer {
+    background-color: #004165;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+.info-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-list li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.project-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+h2 {
+    color: #004165;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.info-item {
+    display: flex;
+    align-items: start;
+    margin-bottom: 15px;
+}
+
+.info-item i {
+    font-size: 20px; /* Adjust size as needed */
+    min-width: 30px; /* Ensure alignment */
+    margin-top: 4px; /* Align icon with the top of the text */
+    color: #004165; /* Or another color that fits your design */
+}
+
+.info-item div {
+    margin-left: 10px;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+h2 {
+    color: #004165;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.writing-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.writing-date {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+.publications-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.publications-list, .sjr-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.sjr-info {
+    max-width: 300px; /* Adjust based on your preference */
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #ccc; /* Visually separates SJR info from the publication list */
+}
+
+.info-item {
+    display: flex;
+    align-items: start;
+    margin-bottom: 15px;
+}
+
+.info-item i {
+    font-size: 20px;
+    min-width: 30px;
+    margin-top: 4px;
+    color: #004165;
+}
+
+.info-item div {
+    margin-left: 10px;
+}
+
+h2, h3 {
+    color: #004165;
+}
+
+/* Existing styles from earlier */
+.category {
+    margin-bottom: 20px;
+}
+
+.publication-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.publication-info {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.publication-info i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.publication-info p {
+    margin: 0;
+}
+
+.sjr-badge {
+    margin-left: 20px;
+    height: 100px; /* Adjusted for visibility */
+}
+
+h2, h3 {
+    color: #004165;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
